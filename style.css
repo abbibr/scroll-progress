@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texts
+{
+    margin-top: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #333;
+}
+.texts p
+{
+    line-height: 27px;
+}
+#scrollbarProgress
+{
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 8px;
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+
+::-webkit-scrollbar
+{
+    width: 15px;
+}
+::-webkit-scrollbar-track
+{
+    background-color: rgb(114, 28, 100);
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, #0f0fc5, #1cb5e0);
+}
